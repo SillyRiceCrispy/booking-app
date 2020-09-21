@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body {
+  background:url(https://i.imgur.com/hAjKezr.jpeg);
+  animation: chbg 60s infinite alternate;
+  background-size:cover
+}
+@keyframes chbg {
+  0% {
+    background:url(https://i.imgur.com/mLZ5vrL.jpeg);
+    background-size:cover
+  }
+  20% {
+    background:url(https://i.imgur.com/a4uWlzA.png);
+    background-size:cover
+  }
+  40% {
+    background:url(https://i.imgur.com/e8bMcGx.jpeg);
+    background-size:cover
+  }
+  60% {
+    background:url(https://i.imgur.com/L0IgJz4.jpeg);
+    background-size:cover
+  }
+  80% {
+    background:url(https://i.imgur.com/SX6Z8IX.jpeg);
+    background-size:cover
+  }
+  100% {
+    background:url(https://i.imgur.com/8K55Ar3.jpeg);
+    background-size:cover
+  }
+}

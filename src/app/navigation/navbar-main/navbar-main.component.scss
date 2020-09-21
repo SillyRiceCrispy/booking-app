@@ -1,0 +1,26 @@
+.navbar {
+  justify-content: space-between;
+  background-color: transparent;
+  border-bottom: 1px solid lightgray;
+}
+
+.navbar span {
+  padding-right: 1rem;
+}
+
+.borders {
+  padding-right: 1rem;
+  border-right: 1px solid lightgray;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  height: max-content;
+}
+
+.navbar .left {
+  padding-left: 10%;
+}
+
+.navbar .right {
+  padding-right: 10%;
+}

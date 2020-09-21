@@ -1,0 +1,20 @@
+<mat-toolbar class="navbar">
+  <div class="left">
+    <span class="borders">HOME</span>
+    <span class="borders">FAQS</span>
+    <span class="borders">CONTACT</span>
+    <mat-form-field style = "max-width: 60px; padding-left: 1rem;" appearance='standard'>
+      <mat-select [(value)]="selectedCurrency">
+        <mat-option [value]="option.value" *ngFor="let option of currencies">{{ option.viewValue }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div class="right">
+    <span><img style="height: 24px; width: 14px;" src="assets/icons/facebook.png"/></span>
+    <span><img style="height: 24px; width: 26px;" src="assets/icons/twitter.png"/></span>
+    <span><img style="height: 24px; width: 26px;" src="assets/icons/pinterest.png"/></span>
+    <span><img style="height: 24px; width: 26px;" src="assets/icons/instagram.png"/></span>
+    <span><img style="height: 24px; width: 26px;" src="assets/icons/phone.png"/></span>
+    <span><img style="height: 24px; width: 26px;" src="assets/icons/email.png"/></span>
+  </div>
+</mat-toolbar>

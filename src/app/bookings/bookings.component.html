@@ -1,0 +1,21 @@
+<div class="bookings">
+    <mat-tab-group selectedIndex = "0" (selectedTabChange)="changeTab($event)">
+
+      <mat-tab label="Flights">
+         <app-flights></app-flights>
+      </mat-tab>
+
+      <mat-tab label="Hotels">
+         <app-hotels *ngIf="tabIndex === 1"></app-hotels>
+      </mat-tab>
+
+      <mat-tab label="Flights + Hotels" >
+         <app-flights-and-hotels *ngIf="tabIndex === 2"></app-flights-and-hotels>
+      </mat-tab>
+
+      <mat-tab label="Holidays">
+         <app-holidays *ngIf="tabIndex === 3"></app-holidays>
+      </mat-tab>
+
+    </mat-tab-group>
+</div>

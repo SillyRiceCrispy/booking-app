@@ -1,0 +1,22 @@
+.flight-header {
+  font: 500 20px/32px Roboto, "Helvetica Neue", sans-serif;
+  color: black;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: darkgray;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: darkgray;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: darkgray;
+}
+
+
